@@ -1,0 +1,16 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "nestjsx site",
+  "main": "index.html",
+  "repository": "git@github.com:nestjsx/site.git",
+  "author": "Ashleigh <ashleigh@nestjsx.dev>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "scripts": {
+    "render": "node_modules/.bin/pug index.pug"
+  }
+}
