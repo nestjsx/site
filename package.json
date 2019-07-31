@@ -11,6 +11,6 @@
     "pug-cli": "^1.0.0-alpha6"
   },
   "scripts": {
-    "render": "node_modules/.bin/pug index.pug"
+    "render": "node_modules/.bin/pug index.pug -o public"
   }
 }
